@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(8, 54, 44);
+}
+
+/* nav ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar {
+    display: flex;
+    /* grid-template-columns: 1fr auto;
+    align-items: center; */
+    color: white;
+    align-items: center;
+
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+.logo {
+    padding: 10px;
+}
+.info{
+    margin-left: 900px;
+}
+.info ul{
+    display: flex;
+    
+}
+
+.info li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+
+.info li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* main{
+            background-image: url(oXrLmSl\ -\ Imgur.jpg);
+            background-size: cover;
+            height: 100vh;
+            border: 5px;
+
+
+            
+        
+        } */
+.imagecontainer {
+    background-image: url('./oXrLmSl\ -\ Imgur.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    display: flex;
+    background-position: center;
+}
+
+.ourbusiness {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+}
+#button{
+    background-color: orangered;
+    color: white;
+    border: 50px;
+    text-transform: uppercase;
+
+}
+
+/* .imagecontainer{
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        } */
+/* .fit-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } */
+#here {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 50, 50, 0.2);
+}
+
+main div button {
+    background-color: orangered;
+    color: white;
+}
+
+/* main div button:hover{
+            background-color: black;
+        } */
+main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: white;
+
+}
+
+
+section div ul {
+    background-color: white;
+    color: none;
+    list-style-type: circle;
+    list-style-position: outside;
+
+}
+
+#service {
+    color: blue;
+
+
+}
+
+#blue {
+    color: blue;
+}
+
+.about {
+    background-color: rgb(117, 114, 114);
+    color: green;
+}
+
+#para {
+    color: black;
+}
+
+.contact {
+    background-color: white;
+    color: rgb(173, 11, 11);
+}
+
+#contact-us {
+    color: black;
+}
+
+footer {
+    background-color: rgb(8, 54, 44);
+    color: white;
+    padding: 20px;
+    align-items: stretch;
+} 
